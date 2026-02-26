@@ -1,0 +1,24 @@
+{
+  "name": "quiz-culture-generale",
+  "version": "1.0.0",
+  "description": "Un quiz de culture générale moderne avec design glassmorphism",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve -s . -p 3000",
+    "build": "echo 'Build completed'",
+    "start": "npx serve -s . -p $PORT"
+  },
+  "keywords": [
+    "quiz",
+    "culture-generale",
+    "glassmorphism",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Quiz Master",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}

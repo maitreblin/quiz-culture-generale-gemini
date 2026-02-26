@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Culture Générale</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-card">
+            <div class="quiz-header">
+                <h1>Quiz Culture Générale</h1>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                    <span class="progress-text" id="progressText">Question 1 sur 10</span>
+                </div>
+            </div>
+
+            <div class="quiz-content">
+                <div class="question-container" id="questionContainer">
+                    <h2 class="question" id="questionText">Chargement...</h2>
+                    <div class="answers" id="answersContainer">
+                        <!-- Les réponses seront générées dynamiquement -->
+                    </div>
+                </div>
+
+                <div class="results-container" id="resultsContainer" style="display: none;">
+                    <div class="results-header">
+                        <h2>Résultats du Quiz</h2>
+                        <div class="score-circle">
+                            <span class="score-text" id="scoreText">0/10</span>
+                            <span class="score-percentage" id="scorePercentage">0%</span>
+                        </div>
+                    </div>
+                    <div class="results-details" id="resultsDetails">
+                        <!-- Détails des résultats -->
+                    </div>
+                    <button class="restart-btn" id="restartBtn">Recommencer le Quiz</button>
+                </div>
+            </div>
+
+            <div class="quiz-footer">
+                <button class="btn btn-secondary" id="prevBtn" disabled>Précédent</button>
+                <button class="btn btn-primary" id="nextBtn" disabled>Suivant</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
