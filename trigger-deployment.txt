@@ -1,3 +1,0 @@
-# Trigger Deployment
-
-This file is created to trigger Vercel deployment.
